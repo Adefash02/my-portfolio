@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+body {
+    background-color: #F2F0EB;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    align-items: center;
+    font-family: "Kanit", sans-serif;
+    line-height: 28px;
+}
+
+.logo {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+}
+
+.logo img {
+    width: 120px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.menu {
+    justify-content: space-between;
+}
+
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    color: #da14a2;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-weight: 80px;
+    line-height: 28px;
+}
+
+.nav {
+    border: 2px solid #da14a2;
+    border-radius: 50px;
+    margin: 0;
+    background-color: #D79FC7;
+}
+
+.nav a#btn {
+    color: #da14a2;
+    padding: 8px 16px;
+    align-content: center;
+    text-decoration: none;
+}
+
+
+/*                         MAIN SECTION                   */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding: 10px;
+    gap: 80px;
+}
+
+.sec2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sec2 img {
+    padding: 0;
+    width: 500px;
+    height: 500px;
+    box-shadow: #D6223B;
+    box-shadow: tomato;
+}
+
+.bio {
+    display: inline-block;
+    flex-direction: column;
+    margin-top: 100px;
+    width: 80%;
+}
+
+.bio .name {
+    font-family: "Kanit", sans-serif;
+    color: #da14a2;
+    width: 300px;
+}
+
+h3 {
+    font-size: 35px;
+    font-weight: 400px;
+    line-height: 28px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: lighter 100px;
+    line-height: 28px;
+    margin-left: 20px;
+}
+
+h2#my {
+    margin-left: 45px;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 300px;
+}
+
+p {
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 30px;
+    line-height: 28px;
+    margin-left: 0px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 80px;
+    padding: 28px 0px 0px 0px;
+}
+
+a#icn {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #da14a2;
+    background-color: #D79FC7;
+    border: 2px solid;
+    border-radius: 50px;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+.hr {
+    margin-top: 18px;
+}
+
+.hr a#btn {
+    text-decoration: none;
+    list-style: none;
+    color: #da14a2;
+    margin-left: 200px;
+    border: 2px solid;
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #D79FC7;
+    font-weight: bold;
+    line-height: 28px;
+}
+
+
+/*                        FOOTER SECTION                */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 150px;
+    padding: 30px 24px;
+    align-items: center;
+    background-color: #da14a2;
+}
+
+nav ul {
+    display: inline-flex;
+    justify-content: space-between;
+    gap: 128px;
+}
+
+nav ul li {
+    list-style: none;
+    text-decoration: none;
+    color: #D79FC7;
+    font-family: "Kanit", sans-serif;
+    font-weight: bold;
+}
+
+nav ul:hover {
+    border-radius: 1px solid #da14a2;
+    cursor: pointer;
+}
